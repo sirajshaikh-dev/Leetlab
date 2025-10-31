@@ -17,7 +17,11 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(
   cors({
+<<<<<<< HEAD
     origin:["http://localhost:5173", "https://leetlab-two.vercel.app"],
+=======
+    origin:["http://localhost:5173", "https://leetlab-two.vercel.app/"],
+>>>>>>> ad043d76d23958a85dcb81d05d12aaafb8515bd6
     credentials:true
   })
 )
